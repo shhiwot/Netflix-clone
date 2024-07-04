@@ -71,7 +71,7 @@ const Header = () => {
         </Container>
         <div className="rightSide_wrapper">
           <div>
-            <SearchIcon />
+            <SearchIcon/>
           </div>
 
           <div>

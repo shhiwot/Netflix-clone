@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .header_outer_wrapper {
   position: sticky;
   top: 0;
@@ -50,7 +54,6 @@
 
 .leftSide_wrapper {
   display: flex;
-
   width: 40%;
 }
 .arrow_dropDown {
@@ -60,7 +63,7 @@
 .rightSide_wrapper {
   margin-right: 2%;
   margin-left: -34%;
-  width: 18%;
+  width: 13%;
   display: flex;
   justify-content: space-between;
 }
@@ -88,10 +91,10 @@
 
 @media (min-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 13.5px;
+    font-size: 14px;
   }
   .rightSide_wrapper {
-    margin-left: 26%;
+    margin-left: -23%;
     /* margin-right: 0%; */
   }
   .rightSide_wrapper svg {
